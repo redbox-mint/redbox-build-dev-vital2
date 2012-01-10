@@ -2,9 +2,9 @@
     "version": "1.0.5.3",
     "redbox.version.string": "${redbox.version}",
     "redbox.identity": {
-        "institution": "University of Newcastle",
-        "RIF-CS Group": "The University of Newcastle, Australia",
-        "internalGrantString": "urn:uon:internal"
+        "institution": "University of Examples",
+        "RIF-CS Group": "The University of Examples, Australia",
+        "internalGrantString": "urn:uoe:internal"
     },
     "configured": true,
     "urlBase": "${server.url.base}",
@@ -198,7 +198,7 @@
         "vital": {
             "id": "vital",
             "tempDir": "${java.io.tmpdir}/rbvital",
-            "foxmlTemplate": "${fascinator.home}/vital/foxml_template_fedora3.xml",
+            "foxmlTemplate": "${fascinator.home}/vital/foxml_template_fedora2.xml",
             "waitConditions": {
                 "property": "published"
             },
