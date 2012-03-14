@@ -155,8 +155,8 @@ class VitalData:
             return "NONE"
 
         except Exception, e:
-            self.log.error("Error fetching datastrem: ", e)
-            self.throw_error("failure fetching datastrem: " + e.getMessage())
+            self.log.error("Error fetching datastream: ", e)
+            self.throw_error("failure fetching datastream: " + e.getMessage())
             return None
 
     # Parse and read an XML document
